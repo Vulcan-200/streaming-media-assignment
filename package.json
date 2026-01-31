@@ -1,0 +1,16 @@
+{
+  "name": "streaming-media-assignment-master",
+  "version": "1.0.0",
+  "description": "A webpage to stream videos",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Mark Starovoyotov",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
