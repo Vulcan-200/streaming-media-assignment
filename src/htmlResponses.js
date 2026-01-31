@@ -4,7 +4,7 @@ const pages =
 {
     1: fs.readFileSync(`${__dirname}/../client/client.html`),
     2: fs.readFileSync(`${__dirname}/../client/client2.html`),
-    3: fs.readFileSync(`${__dirname}/../client/client3.html`)
+    3: fs.readFileSync(`${__dirname}/../client/client3.html`),
 
 }
 
