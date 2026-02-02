@@ -60,19 +60,19 @@ const loadFile = (request, response, filePath, contentType) =>
 
 const getParty = (request, response) =>
 {
-    filePath = path.resolve(__dirname, '../client/party.mp4')
+    const filePath = path.resolve(__dirname, '../client/party.mp4')
     loadFile(request, response, filePath, 'video/mp4');
 }
 
 const getBling = (request, response) =>
 {
-    filePath = path.resolve(__dirname, '../client/bling.mp3')
+    const filePath = path.resolve(__dirname, '../client/bling.mp3')
     loadFile(request, response, filePath, 'audio/mp3');
 }
 
 const getBird = (request, response) =>
 {
-    filePath = path.resolve(__dirname, '../client/bird.mp4')
+    const filePath = path.resolve(__dirname, '../client/bird.mp4')
     loadFile(request, response, filePath, 'video/mp4');
 }
 

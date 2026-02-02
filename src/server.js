@@ -18,19 +18,19 @@ const onRequest = (request, response) =>
             htmlHandler.getPage(request, response, 2);
             break;
 
-        case 'page3':
+        case '/page3':
             htmlHandler.getPage(request, response, 3);
             break;
 
-        case '/party':
+        case '/party.mp4':
             mediaHandler.getParty(request, response);
             break;
         
-        case '/bling':
+        case '/bling.mp3':
             mediaHandler.getBling(request, response);
             break;
 
-        case '/bird':
+        case '/bird.mp4':
             mediaHandler.getBird(request, response);
             break;
 
